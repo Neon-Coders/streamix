@@ -1,10 +1,6 @@
-# Project Name
+# Streamix
 
-Project Description.
-
-# Beta Version
-
-No beta version deployed.
+Streamix is a subscription streaming service
 
 # Live version
 
@@ -27,40 +23,23 @@ Before interacting with our community, please read our [Code of Conduct](CODE_OF
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get your API Key at [TMDB](https://https://www.themoviedb.org/)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/ibrahimraimi/streamix/
    ```
 3. Install NPM packages
    ```sh
-   npm install
+   yarn install
    ```
-4. Enter your API in `config.js`
+4. Enter your API in a  `.env` file
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   NEXT_PUBLIC_TMDB_API_KEY="your api key"
    ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
 ## Licensing
 
 Copyright (C) 2022 Ibrahim Raimi
