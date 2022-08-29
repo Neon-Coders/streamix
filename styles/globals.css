@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#232533] text-white overflow-x-hidden !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-custom;
+  }
+
+  header {
+    @apply fixed top-0 z-50 flex w-full items-center justify-between px-4 transition-all lg:px-10;
+  }
+}
+
+@layer components {
+  .headerLink {
+    @apply cursor-pointer text-sm font-bold text-[#e5e5e5] transition duration-[.4s] hover:text-[#b3b3b3];
+  }
+
+  .playBtn {
+    @apply flex items-center rounded-full p-5 transition hover:opacity-75 border;
+  }
+  
+  .addBtn {
+    @apply flex items-center rounded-full p-2 transition hover:opacity-75 border;
+  }
+}
