@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "1.0.6",
-    "next": "12.3.0",
+    "next": "12.3.1",
     "next-transpile-modules": "9.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -22,7 +22,7 @@
     "@types/react-dom": "18.0.6",
     "autoprefixer": "10.4.11",
     "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0",
+    "eslint-config-next": "12.3.1",
     "postcss": "8.4.16",
     "tailwind-scrollbar": "2.0.1",
     "tailwind-scrollbar-hide": "1.1.7",
