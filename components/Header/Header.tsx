@@ -25,7 +25,7 @@ const Header = () => {
   const movieTypes = ["Action"];
 
   return (
-    <header className={`${isScrolled && "bg-[#232533]"}`}>
+    <header className={`${isScrolled && "bg-[#232533]"} flex items-center h-16 m-auto`}>
       <div className="flex items-center space-x-2 md:space-x-10">
         <Image
           src={Logo}
